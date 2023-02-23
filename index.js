@@ -33,9 +33,9 @@ async function printMySQLVersion() {
 const success = printMySQLVersion();
 
 
+const router = include('routes/router');
 const app = express();
 app.set('view engine', 'ejs');
-const router = include('routes/router');
 
 app.use('/',router);
 app.use(express.static(__dirname + "/public"));
