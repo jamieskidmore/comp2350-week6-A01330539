@@ -12,7 +12,7 @@ const express = require('express');
 const database = include('databaseConnection');
 const router = include('routes/router');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 async function printMySQLVersion() {
 	let sqlQuery = `

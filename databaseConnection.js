@@ -8,6 +8,7 @@ const dbConfigQoddi = {
 	password: "5e69We5E@cB!Hj6",
 	database: "freedb_comp2350-week2-A01330539",
 	multipleStatements: false,
+  namedPlaceholders: true,
 };
 
 const dbConfigLocal = {
